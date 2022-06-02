@@ -2,16 +2,24 @@ baseurl = "/"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "shadocs"
+categories = ['Cases']
+tags = ['Cases']
 
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 0
-[[menu.main]]
-    name = "About"
-    url = "about"
-    weight = 5
+currentVersion     = "latest"
+siteContentOrder = "weight"
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
 
+[params.taxonomies]
+    [params.taxonomies.categories]
+    icon = "fa-solid fa-table-cells"
+
+
+
+[outputs]
+  home = ["HTML","RSS", "JSON"]
+  section =["HTML","RSS", "JSON"]
 
 [outputFormats]
   [outputFormats.SearchIndex]
