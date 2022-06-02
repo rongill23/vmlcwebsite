@@ -1,0 +1,194 @@
+[
+  {
+    "package": "swagger-ui",
+    "hold": false,
+    "name": "js_bundle",
+    "localPath": "assets/js/external/swagger-ui-bundle.min.js",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "swagger-ui",
+      "fileName": "swagger-ui-bundle.min.js"
+    },
+    "currentVersion": "4.5.0"
+  },
+  {
+    "package": "swagger-ui",
+    "hold": false,
+    "name": "js_preset",
+    "localPath": "assets/js/external/swagger-ui-preset.min.js",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "swagger-ui",
+      "fileName": "swagger-ui-standalone-preset.min.js"
+    },
+    "currentVersion": "4.5.0"
+  },
+  {
+    "package": "swagger-ui",
+    "hold": false,
+    "name": "css",
+    "localPath": "assets/css/external/swagger-ui.min.css",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "swagger-ui",
+      "fileName": "swagger-ui.min.css"
+    },
+    "currentVersion": "4.5.0"
+  },
+  {
+    "package": "flexsearch",
+    "hold": false,
+    "name": "js",
+    "localPath": "assets/js/external/flexsearch.min.js",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "FlexSearch",
+      "fileName": "flexsearch.bundle.min.js"
+    },
+    "currentVersion": "0.7.2"
+  },
+  {
+    "package": "mermaid",
+    "hold": false,
+    "name": "js",
+    "localPath": "assets/js/external/mermaid.min.js",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "mermaid",
+      "fileName": "mermaid.min.js"
+    },
+    "currentVersion": "8.14.0"
+  },
+  {
+    "package": "qrious",
+    "hold": false,
+    "name": "js",
+    "localPath": "assets/js/external/qrious.min.js",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "qrious",
+      "fileName": "qrious.min.js"
+    },
+    "currentVersion": "4.0.2"
+  },
+  {
+    "package": "overlayscrollbars",
+    "hold": false,
+    "name": "js",
+    "localPath": "assets/js/external/OverlayScrollbars.min.js",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "overlayscrollbars",
+      "fileName": "js/OverlayScrollbars.min.js"
+    },
+    "currentVersion": "1.13.1"
+  },
+  {
+    "package": "overlayscrollbars",
+    "hold": false,
+    "name": "css",
+    "localPath": "assets/css/external/OverlayScrollbars.min.css",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "overlayscrollbars",
+      "fileName": "css/OverlayScrollbars.min.css"
+    },
+    "currentVersion": "1.13.1"
+  },
+  {
+    "package": "intro",
+    "hold": false,
+    "name": "js",
+    "localPath": "assets/js/external/intro.min.js",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "intro.js",
+      "fileName": "intro.min.js"
+    },
+    "currentVersion": "5.0.0"
+  },
+  {
+    "package": "fontawesome",
+    "hold": false,
+    "name": "css",
+    "localPath": "assets/css/external/fontawesome.all.min.css",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "font-awesome",
+      "fileName": "css/all.min.css"
+    },
+    "currentVersion": "6.0.0"
+  },
+  {
+    "package": "fontawesome",
+    "hold": false,
+    "name": "fa_brands-400.ttf",
+    "localPath": "static/css/webfonts/fa-brands-400.ttf",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "font-awesome",
+      "fileName": "webfonts/fa-brands-400.ttf"
+    },
+    "currentVersion": "6.0.0"
+  },
+  {
+    "package": "fontawesome",
+    "hold": false,
+    "name": "fa_brands-400.woff2",
+    "localPath": "static/css/webfonts/fa-brands-400.woff2",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "font-awesome",
+      "fileName": "webfonts/fa-brands-400.woff2"
+    },
+    "currentVersion": "6.0.0"
+  },
+  {
+    "package": "fontawesome",
+    "hold": false,
+    "name": "fa_regular-400.ttf",
+    "localPath": "static/css/webfonts/fa-regular-400.ttf",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "font-awesome",
+      "fileName": "webfonts/fa-regular-400.ttf"
+    },
+    "currentVersion": "6.0.0"
+  },
+  {
+    "package": "fontawesome",
+    "hold": false,
+    "name": "fa_regular-400.woff2",
+    "localPath": "static/css/webfonts/fa-regular-400.woff2",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "font-awesome",
+      "fileName": "webfonts/fa-regular-400.woff2"
+    },
+    "currentVersion": "6.0.0"
+  },
+  {
+    "package": "fontawesome",
+    "hold": false,
+    "name": "fa_solid-900.ttf",
+    "localPath": "static/css/webfonts/fa-solid-900.ttf",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "font-awesome",
+      "fileName": "webfonts/fa-solid-900.ttf"
+    },
+    "currentVersion": "6.0.0"
+  },
+  {
+    "package": "fontawesome",
+    "hold": false,
+    "name": "fa_solid-900.woff2",
+    "localPath": "static/css/webfonts/fa-solid-900.woff2",
+    "assetManager": {
+      "name": "cdnjs",
+      "library": "font-awesome",
+      "fileName": "webfonts/fa-solid-900.woff2"
+    },
+    "currentVersion": "6.0.0"
+  }
+]

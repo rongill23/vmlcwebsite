@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - name: "cases" # Used in routes, e.g., /admin/collections/blog
+    label: "Cases" # Used in the UI
+    folder: "/cases" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Categories", name: "Categories", widget: "select", options: [{ label: "Cases", value: "cases"} ] }
+      - {label: "Tags", name: "Tags", widget: "select", options: [{ label: "Cloud", value: "cloud"} ]}
+      - {label: "Body", name: "body", widget: "markdown" }

@@ -1,0 +1,21 @@
+baseurl = "/"
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "shadocs"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 0
+[[menu.main]]
+    name = "About"
+    url = "about"
+    weight = 5
+
+
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
