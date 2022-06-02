@@ -28,7 +28,7 @@ import {
     fetch(url + 'index.json')
       .then((response) => response.json())
       .then((data) => data.forEach(entry => flexSearch.add(entry)))
-      .catch(() => {});
+      .catch(() =>{});
   }
   // Function to disable search in case the input json file search is not found
   function disableSearch() {
