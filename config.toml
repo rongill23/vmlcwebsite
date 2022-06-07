@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "shadocs"
-categories = ['Cases', 'Onboarding', '']
+categories = ['Cases', 'Onboarding']
 tags = ['Virtual Server', 'Direct Link']
 
 currentVersion     = "latest"

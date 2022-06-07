@@ -2,6 +2,9 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-Categories: {{ .Categories }}
-Tags:  {{ .Tags }}
+categories: 
+- Cases
+- Onboarding
+tags:  
+- Virtual Server
 ---
