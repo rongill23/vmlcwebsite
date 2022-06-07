@@ -16,8 +16,8 @@ collections:
       - {label: "Draft", name: "Draft", widget: "boolean"}
       - {label: "Categories", name: "Categories", widget: "select", options: [{ label: "Cases", value: "cases"} ] }
       - {label: "Tags", name: "Tags", widget: "select", options: [{ label: "Direct Link", value: "direct-link"}, {label: "Virtual Server", value: "virtual-server"} ]}
-      - {label: "Problem Description",  name: "Problem Description", widget: "string", required: true}
+      - {label: "Problem Description",  name: "Problem Description", widget: "text"}
       - {label: "Screenshots", name: "Screenshots", widget: "file"}
-      - {label: "Logs requested (from Ops and Support) & Collected by VMLC", "Logs requested (from Ops and Support) & Collected by VMLC ", name: "Logs Requested", widget: "string" }
-      - {label: "Workaround if any", name: "Workaround if any", widget: "string"}
-      - {label: "Solution", name: "Solution", widget: "solution"}
+      - {label: "Logs requested (from Ops and Support) & Collected by VMLC", name: "Logs Requested", widget: "text" }
+      - {label: "Workaround if any", name: "Workaround if any", widget: "text"}
+      - {label: "Solution", name: "Solution", widget: "text"}
