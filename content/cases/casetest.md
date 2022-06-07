@@ -10,8 +10,6 @@ draft: false
 1.Example
 2.List
 
-
-
 {{< treeview
     display="tree"
 >}}
