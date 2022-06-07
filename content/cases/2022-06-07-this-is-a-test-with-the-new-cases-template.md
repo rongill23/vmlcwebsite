@@ -1,6 +1,6 @@
 ---
 title: This is a test with the new cases template
-Draft: true
+Draft: false
 Categories: cases
 Tags: direct-link
 Problem Description: Test
