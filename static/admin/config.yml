@@ -21,7 +21,7 @@ collections:
       # - {label: "Logs requested (from Ops and Support) & Collected by VMLC", name: "Logs Requested", widget: "text" }
       # - {label: "Workaround if any", name: "Workaround if any", widget: "text"}
       # - {label: "Solution", name: "Solution", widget: "text"}
-      - {label: "Case Details", name: "body", 
+      - {label: "Case Details", name: "body", widget: "markdown", 
          default: {"
           <!-- Note White Space Matters!! -->
           <!-- Problem Description Section -->
