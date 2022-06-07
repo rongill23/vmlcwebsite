@@ -22,7 +22,7 @@ collections:
       # - {label: "Workaround if any", name: "Workaround if any", widget: "text"}
       # - {label: "Solution", name: "Solution", widget: "text"}
       - {label: "Case Details", name: "body", widget: "markdown", 
-         default: {"
+         default: "
           <!-- Note White Space Matters!! -->
           <!-- Problem Description Section -->
           # Problem Description
@@ -48,4 +48,4 @@ collections:
           <!-- Solution Section -->
           # Solution
 
-          <!-- End Of Solution Section -->"}}
+          <!-- End Of Solution Section -->"}
