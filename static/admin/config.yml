@@ -16,8 +16,36 @@ collections:
       - {label: "Draft", name: "Draft", widget: "boolean"}
       - {label: "Categories", name: "Categories", widget: "select", options: [{ label: "Cases", value: "cases"} ] }
       - {label: "Tags", name: "Tags", widget: "select", options: [{ label: "Direct Link", value: "direct-link"}, {label: "Virtual Server", value: "virtual-server"} ]}
-      - {label: "Problem Description",  name: "Problem Description", widget: "text"}
+      # - {label: "Problem Description",  name: "Problem Description", widget: "text"}
       - {label: "Screenshots", name: "Screenshots", widget: "file"}
-      - {label: "Logs requested (from Ops and Support) & Collected by VMLC", name: "Logs Requested", widget: "text" }
-      - {label: "Workaround if any", name: "Workaround if any", widget: "text"}
-      - {label: "Solution", name: "Solution", widget: "text"}
+      # - {label: "Logs requested (from Ops and Support) & Collected by VMLC", name: "Logs Requested", widget: "text" }
+      # - {label: "Workaround if any", name: "Workaround if any", widget: "text"}
+      # - {label: "Solution", name: "Solution", widget: "text"}
+      - {label: "Case Details", name: "body", 
+      default: {"
+      <!-- Note White Space Matters!! -->
+      <!-- Problem Description Section -->
+      # Problem Description
+
+      <!-- End of Problem Description Section -->
+      ***
+      <!-- Screenshots Section -->
+      # Screenshots
+      <!-- ![I'm an image](/images/favicon.png) -->
+
+      <!-- End Of Screenshots Section -->
+      ***
+      <!-- Logs Requested Section -->
+      # Logs Requested
+
+      <!-- End Of Logs Requested Section -->
+      ***
+      <!-- Work Arounds Section -->
+      # Work Arounds
+
+      <!-- End Of Work Arounds Section -->
+      ***
+      <!-- Solution Section -->
+      # Solution
+
+      <!-- End Of Solution Section -->"}}
