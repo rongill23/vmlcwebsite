@@ -2,8 +2,8 @@ baseurl = "/"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "shadocs"
-categories = ['Cases', 'Test']
-tags = ['Cases', 'Test2']
+categories = ['Cases', 'Onboarding', '']
+tags = ['Virtual Server', 'Direct Link']
 
 currentVersion     = "latest"
 siteContentOrder = "weight"

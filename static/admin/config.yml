@@ -12,5 +12,9 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Categories", name: "Categories", widget: "select", options: [{ label: "Cases", value: "cases"} ] }
-      - {label: "Tags", name: "Tags", widget: "select", options: [{ label: "Cloud", value: "cloud"} ]}
-      - {label: "Body", name: "body", widget: "markdown" }
+      - {label: "Tags", name: "Tags", widget: "select", options: [{ label: "Direct Link", value: "direct-link"}, {label: "Virtual Server", value: "virtual-server"} ]}
+      - {label: "Problem Description",  name: "Problem Description", widget: "string", required: "true"}
+      - {label: "Screenshots", name: "Screenshots", widget: "file"}
+      - {label: "Logs requested (from Ops and Support) & Collected by VMLC", "Logs requested (from Ops and Support) & Collected by VMLC ", widget: "string")}
+      - {label: "Workaround if any", name: "Workaround if any", widget: "string"}
+      - {label: "solution", name: "solution", widget: "solution"}
