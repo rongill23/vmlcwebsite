@@ -21,31 +21,4 @@ collections:
       # - {label: "Logs requested (from Ops and Support) & Collected by VMLC", name: "Logs Requested", widget: "text" }
       # - {label: "Workaround if any", name: "Workaround if any", widget: "text"}
       # - {label: "Solution", name: "Solution", widget: "text"}
-      - {label: "Case Details", name: "body", widget: "markdown", 
-         default: "
-          <!-- Note White Space Matters!! -->
-          <!-- Problem Description Section -->
-          # Problem Description
-
-          <!-- End of Problem Description Section -->
-          ***
-          <!-- Screenshots Section -->
-          # Screenshots
-          <!-- ![I'm an image](/images/favicon.png) -->
-
-          <!-- End Of Screenshots Section -->
-          ***
-          <!-- Logs Requested Section -->
-          # Logs Requested
-
-          <!-- End Of Logs Requested Section -->
-          ***
-          <!-- Work Arounds Section -->
-          # Work Arounds
-
-          <!-- End Of Work Arounds Section -->
-          ***
-          <!-- Solution Section -->
-          # Solution
-
-          <!-- End Of Solution Section -->"}
+      - {label: "Case Details", name: "body", widget: "markdown", default: "<!-- Note White Space Matters!! --><br><!-- Problem Description Section --># Problem Description<!-- End of Problem Description Section --><br>***<!-- Screenshots Section --><br># Screenshots<!-- ![I'm an image](/images/favicon.png) --><!-- End Of Screenshots Section --><br>***<!-- Logs Requested Section --><br># Logs Requested<!-- End Of Logs Requested Section --><br>***<!-- Work Arounds Section --><br># Work Arounds<!-- End Of Work Arounds Section --><br>***<!-- Solution Section --><br># Solution<!-- End Of Solution Section -->"}
