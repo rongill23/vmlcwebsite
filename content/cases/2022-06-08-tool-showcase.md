@@ -7,6 +7,10 @@ Screenshots: /images/uploads/image.png
 ---
 # This page is meant ot showcase the capabilites of this tool.
 
+<hr>
+
+# These are subsections which can easily organize content via the sidebar ->
+
 ## These are subsections which can easily organize content via the sidebar ->
 
 ### These are subsections which can easily organize content via the sidebar ->
